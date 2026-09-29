@@ -39,7 +39,7 @@ El sistema sigue un proceso similar al siguiente:
 
 ## Ejemplo
 
-
+![Ejemplo del sistema](example.png)
 
 ## Instalación
 
