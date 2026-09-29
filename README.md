@@ -1,4 +1,4 @@
-# RN-Python
+# Reconocimiento de Números - Python
 Sistema de reconocimiento de números mediante inteligencia artificial, visión artificial y lógica difusa.
 
 # Reconocimiento de Números
