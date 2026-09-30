@@ -41,7 +41,64 @@ El sistema sigue un proceso similar al siguiente:
 
 ![Ejemplo del sistema](example.png)
 
-## Instalación
+## Ejecución
 
-Clona el repositorio:
+### 1. Instalar las dependencias
 
+Clona el repositorio y entra a la carpeta del proyecto:
+
+```bash
+git clone [URL]
+cd Reconocimiento-Numeros
+```
+
+Instala las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Entrenar el modelo
+
+Ejecuta el entrenamiento del modelo:
+
+```bash
+python entrenamiento.py
+```
+
+El programa solicitará la ruta de la carpeta que contiene las imágenes:
+
+```text
+Escribe la ruta donde se encuentran las imágenes:
+```
+
+La carpeta `img_num` ya se encuentra en el repositorio y contiene las imágenes 
+organizadas del 0 al 9, asi que simplemente copia el path de la carpeta.
+
+Después, el programa solicitará la ruta donde se guardará el modelo:
+
+```text
+Escribe la ruta donde quieres guardar el modelo .keras:
+```
+
+### 3. Reconocer números
+
+Una vez generado el modelo, ejecuta:
+
+```bash
+python reconocimiento.py
+```
+
+El programa solicitará la ruta del modelo entrenado:
+
+```text
+Ingresa la ruta donde el modelo buscará el modelo entrenado:
+```
+
+Introduce la ruta del archivo `.keras` generado durante el entrenamiento.
+
+Se abrirá la cámara web y aparecerá un recuadro de detección. Coloca un número dentro del recuadro para que el modelo lo reconozca.
+
+### 4. Cerrar el programa
+
+Presiona **ESC** para cerrar la cámara y terminar el programa.
