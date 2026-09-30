@@ -48,7 +48,7 @@ El sistema sigue un proceso similar al siguiente:
 Clona el repositorio y entra a la carpeta del proyecto:
 
 ```bash
-git clone [[URL]](https://github.com/JosePonceM/RN-Python.git)
+git clone https://github.com/JosePonceM/RN-Python.git
 cd RN-Python
 ```
 
