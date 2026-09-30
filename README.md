@@ -18,8 +18,8 @@ un modelo ya entrenado para reconocer formas del numero en la pantalla.
 ```text
 RN-Python/
 ├── img_num/             # Imágenes utilizadas para entrenar el modelo
-├── example.png          # Ejemplo del sistema
-├── load_model.py        # Carga el modelo y realiza el reconocimiento
+├── example.png          # Ejemplo del sistema funcionando
+├── load_model.py        # Carga el modelo e inicia el reconocimiento
 ├── train_model.py       # Entrena el modelo
 ├── README.md            # Documentación del proyecto
 └── requirements.txt     # Dependencias de Python
