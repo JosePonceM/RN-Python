@@ -63,7 +63,7 @@ pip install -r requirements.txt
 Ejecuta el entrenamiento del modelo:
 
 ```bash
-python entrenamiento.py
+python Entrenar_modelo_Clase.py
 ```
 
 El programa solicitará la ruta de la carpeta que contiene las imágenes:
@@ -86,7 +86,7 @@ Escribe la ruta donde quieres guardar el modelo .keras:
 Una vez generado el modelo, ejecuta:
 
 ```bash
-python reconocimiento.py
+python Cargar_modelo_Clase.py
 ```
 
 El programa solicitará la ruta del modelo entrenado:
