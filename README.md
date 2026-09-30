@@ -13,6 +13,18 @@ El sistema analiza la información obtenida de la pantalla y utiliza lógica
 difusa para interpretar y reconocer los números detectados por medio de
 un modelo ya entrenado para reconocer formas del numero en la pantalla.
 
+## Estructura del proyecto
+
+```text
+RN-Python/
+├── img_num/             # Imágenes utilizadas para entrenar el modelo
+├── example.png          # Ejemplo del sistema
+├── load_model.py        # Carga el modelo y realiza el reconocimiento
+├── train_model.py       # Entrena el modelo
+├── README.md            # Documentación del proyecto
+└── requirements.txt     # Dependencias de Python
+```
+
 ## Tecnologías utilizadas
 
 - Python
